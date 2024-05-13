@@ -263,7 +263,7 @@ jobs:
             os: ubuntu-latest
             rust: stable
             target: x86_64-unknown-linux-musl
-            features: --features default
+            features: --features cli,js
             libc: musl
             cross: true
 
